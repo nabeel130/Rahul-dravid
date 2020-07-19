@@ -1,0 +1,33 @@
+body{
+    text-align: left;
+    background-color: seagreen;
+}
+h1{
+    color: seashell;
+    font-family: "Montserrat";
+}
+p{
+    color: seashell;
+}
+.main{
+    text-align: center;
+}
+#image{
+    background-image: url(full.jpg);
+    background-repeat: no-repeat;
+    width: 100% ;
+}
+#submitbutton{
+    
+    
+    justify-content: center;
+    display: flex;
+}
+button{
+    background-color: red;
+    color: white;
+}
+img{
+    position: absolute;
+    right: 20%;
+)

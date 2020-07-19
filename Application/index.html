@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="mailto:nabeelkmvkd07@gmail.com" method="post">
+
+        
+        <h1 class="main">KODAS DATA COLLECTION</h1>
+        <p class="main">All datas in our fingertips</p>
+
+        <fieldset>
+            <img src="full.jpg" alt="pic" width="500" height="300">
+
+
+            <legend>Personal Details</legend>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter name here">
+
+            </div> 
+
+            <br>
+
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" min="0" max="80" placeholder="">
+
+            </div> 
+
+            <br>
+
+
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name="address" placeholder="Enter address here">  
+
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter email here"> 
+
+
+            </div>
+
+            <br>
+
+            <div>
+                <label for="phone number">Phone Number</label>
+                <input type="number" name="phone number" min="1000000000" max="9999999999" placeholder="Enter phone number"> 
+
+
+            </div>
+
+            <br>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter password here">
+
+            </div>
+        
+        <br>
+        
+        <div>
+
+            <label for="Gender">Gender</label> <br>
+        <input type="radio" name="gender" value="male">Male <br>
+        <input type="radio" name="gender" value="female">Female <br>
+        <input type="radio" name="gender" value="other"> Other
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="martial status">Martial status</label> <br>
+            <input type="radio" name="matrial status" value="single">Single <br>
+            <input type="radio" name="martial status" value="married"> Married <br>
+        </div>
+
+        <br>
+        
+
+        <fieldset>
+
+            <div>
+                <label for="education">Educatinal level Completed</label>
+                <select id="education">
+                    <option value="select" selected>Select</option>
+                    <option value="phd">PHD</option>
+                    <option value="post degree">PG</option>
+                    <option value="degree">BACHELOR DEGREE</option>
+                    <option value="diploma">DIPLOMA</option>
+                    <option value="iti">ITI</option>
+                    <option value="higher secondary">HIGHER SECONDARY</option>
+                    <option value="other">OTHER</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="course">Course</label>
+                <select id="course">
+                    <option value="select" selected>Select</option>
+                    <option value="bsc">BSC</option>
+                    <option value="ba">BA</option>
+                    <option value="btech">BTECH</option>
+                    <option value="bba">BBA</option>
+                    <option value="mca">MCA</option>
+                    <option value="msc">MSC</option>
+                    <option value="other">OTHER</option>
+                </select>
+            </div>
+
+
+        </fieldset>
+
+        <br>
+
+
+        <fieldset>
+
+            <legend>Essay Section</legend>
+            <p>In 50 words write anything</p>
+            <textarea id="msg" rows="4" cols="50" name="message" placeholder="Enter Text Here"></textarea>
+        </fieldset>
+
+        <div id="submitbutton">
+
+            <button type="submit">Send your Application</button>
+
+
+        </div>
+        
+
+
+
+
+
+    </form>
+
+
+
+
+
+        <div id="image">
+
+
+        </div>
+
+        
+
+            
+           
+    
+</body>
+</html>
