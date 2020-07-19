@@ -1,0 +1,24 @@
+#main{
+    background-image: url(https://i.pinimg.com/originals/22/80/6c/22806ccb413dbb2733f9923cdedaf255.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+h1,h3{
+    text-align: center;
+}
+#award{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/The_President%2C_Shri_Pranab_Mukherjee_presenting_the_Padma_Bhushan_Award_to_Shri_Rahul_Dravid%2C_at_an_Investiture_Ceremony%2C_at_Rashtrapati_Bhavan%2C_in_New_Delhi_on_April_05%2C_2013.jpg/220px-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+}
+a{
+    color: cornflowerblue;
+    font-size: x-small;
+}
